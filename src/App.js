@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from "./pages/HomePage/HomePage.js";
 import Resources from "./pages/Resources/Resources.js";
 import EquipmentandSoftwarePage from "./pages/EquipmentandSoftwarePage/EquipmentandSoftwarePage.js";
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<HomePage />}/>
           <Route path="/resources" element={<Resources />}/>
           <Route path="/resources/equipment-and-software" element={<EquipmentandSoftwarePage />}/>
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
     </>
