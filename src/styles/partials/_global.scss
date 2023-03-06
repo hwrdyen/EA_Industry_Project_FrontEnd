@@ -5,6 +5,7 @@
 * {
     text-decoration: none;
     list-style: none;
+    font-family: "Lato-Regular";
 }
 
 #root {
@@ -35,6 +36,11 @@ p {
     // font-weight: 600;
     // font-size: 1rem;
     // color: $instock-black;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
 }
 
 footer {

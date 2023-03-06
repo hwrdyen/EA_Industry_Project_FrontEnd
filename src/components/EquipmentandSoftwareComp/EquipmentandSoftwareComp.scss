@@ -1,0 +1,144 @@
+@media screen and (min-device-width: 0px){
+    .EquipmentandSoftwareComp {
+        width: 1020px;
+        height: 827px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #BAE7F5;
+    }
+
+    .EquipmentandSoftwareComp__titlecontainer {
+        width: 978px;
+        height: 65px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    .EquipmentandSoftwareComp__title {
+        width: 319px;
+        height: 32px;
+        margin-left: 20px;
+    }
+
+    .EquipmentandSoftwareComp__titlebutton {
+        width: 118px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #111B36;
+        color: white;
+        font-size: 15px;
+        margin-left: 503px;
+    }
+
+    .EquipmentandSoftwareComp__contentcontainer {
+        width: 1020px;
+        height: 707px;
+        background-color: white;
+    }
+
+    .EquipmentandSoftwareComp__breadcrumbs {
+        width: 227px;
+        height: 16px;
+        font-size: 11px;
+        margin-top: 20px;
+        margin-left: 117px;
+    }
+
+    .EquipmentandSoftwareComp__img {
+        width: 785px;
+        height: 441px;
+        margin-top: 36px;
+        margin-left: 117px;
+    }
+
+    .EquipmentandSoftwareComp__commentinfocontainer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 27px;
+        margin-left: 47px;
+    }
+
+    .EquipmentandSoftwareComp__commentnumber,
+    .EquipmentandSoftwareComp__sortby {
+        font-weight: bold;
+    }
+
+    .EquipmentandSoftwareComp__commentnumber {
+        width: 100px;
+        height: 20px;
+    }
+
+    .EquipmentandSoftwareComp__sortby {
+        width: 98px;
+        height: 24px;
+    }
+
+    .EquipmentandSoftwareComp__commentsubmitcontainer {
+        width: 932px;
+        height: 72px;
+        margin-top: 32px;
+        margin-left: 47px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .EquipmentandSoftwareComp__user--image {
+        object-position: 20% 80%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .EquipmentandSoftwareComp__commentsectioncontainer {
+        width: 876px;
+        height: 72px;
+    }
+
+    .EquipmentandSoftwareComp__commentsection--top {
+        width: 869px;
+        height: 29px;
+        border-bottom: 1px solid black;
+    }
+
+    .EquipmentandSoftwareComp__commentsection--bottom {
+        width: 876px;
+        height: 35px;
+        margin-top: 8px;
+    }
+
+    .EquipmentandSoftwareComp__buttoncontainer {
+        width: 195px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .EquipmentandSoftwareComp__button--cancel {
+        width: 75px;
+        height: 35px;
+    }
+
+    .EquipmentandSoftwareComp__button--comment {
+        width: 95px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+}
+
+
+@media screen and (min-device-width: 1280px){
+}

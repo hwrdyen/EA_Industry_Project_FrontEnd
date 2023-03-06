@@ -1,0 +1,133 @@
+@media screen and (min-device-width: 0px){
+    .TopicNavBar {
+        width: 256px;
+        height: 901px;
+        background-color: #BAE7F5;
+        color: #101223;
+        font-size: 15px;
+    }
+
+    .TopicNavBar__title {
+        width: 118px;
+        height: 16px;
+        padding-top: 37px;
+        padding-left: 38px;
+        font-size: 15px;
+    }
+
+    .TopicNavBar__section--functionlist {
+        margin-top: 40px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .TopicNavBar__section--functionlistitem {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .TopicNavBar__section--welcometitle,
+    .TopicNavBar__section--contenttitle,
+    .TopicNavBar__section--equipmenttitle,
+    .TopicNavBar__section--styletitle,
+    .TopicNavBar__section--brainstormingtitle,
+    .TopicNavBar__section--followerstitle,
+    .TopicNavBar__section--makemoneytitle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2px;
+        height: 16px;
+    }
+
+    .TopicNavBar__section--welcome {
+        margin-top: 35px;
+        margin-left: 19px;
+    }
+
+    .TopicNavBar__section--welcomelist {
+        padding-left: 26px;
+    }
+
+    .TopicNavBar__section--welcomelistitem {
+        margin-top: 16px;
+    }
+
+    .TopicNavBar__section--content {
+        margin-top: 30px;
+    }
+
+    .TopicNavBar__section--contenttitlelink {
+        color: white;
+    }
+
+    .TopicNavBar__section--contenttitle {
+        width: 237px;
+        height: 33px;
+        align-items: center;
+        padding-left: 19px;
+    }
+
+    .TopicNavBar__section--contenttitle.selected {
+        width: 237px;
+        height: 33px;
+        align-items: center;
+        background-color: #111B36;
+        color: white;
+        padding-left: 19px;
+    }
+
+    .TopicNavBar__section--contentlist {
+        padding-left: 40px;
+    }
+
+    .TopicNavBar__section--contentlistitem {
+        margin-top: 16px;
+    }
+
+    .TopicNavBar__section--contentlistitem.firstitem {
+        margin-top: 7px;
+    }
+
+    .TopicNavBar__section--contentlistitemlink {
+        color: black;
+    }
+
+    .TopicNavBar__section--equipment {
+        margin-top: 30px;
+        margin-left: 19px;
+    }
+
+    .TopicNavBar__section--style {
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+
+    .TopicNavBar__section--brainstorming {
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+
+    .TopicNavBar__section--followers {
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+
+    .TopicNavBar__section--makemoney {
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+
+
+
+}
+
+@media screen and (min-device-width: 768px){
+}
+
+
+@media screen and (min-device-width: 1280px){
+}

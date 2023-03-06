@@ -1,0 +1,27 @@
+@media screen and (min-device-width: 0px){
+    .EquipmentandSoftwarePage {
+        display: flex;
+        flex-direction: row;
+        gap: 82px;
+    }
+
+    .EquipmentandSoftwarePage__section--right {
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+    }
+
+    .EquipmentandSoftwarePage__breadcrumb {
+        width: 294px;
+        height: 16px;
+        font-size: 11px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+}
+
+
+@media screen and (min-device-width: 1280px){
+}

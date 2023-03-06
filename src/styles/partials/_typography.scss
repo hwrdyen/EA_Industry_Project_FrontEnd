@@ -1,0 +1,8 @@
+@use "variable" as *;
+
+//Font Regular 
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../../assets/Fonts/Lato-Regular.ttf) format("truetype");
+    font-weight: 400;
+}

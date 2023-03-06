@@ -1,0 +1,76 @@
+@media screen and (min-device-width: 0px){
+    .Header {
+        background-color: #111B36;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+
+    .Header__logo--container {
+        width: 223px;
+        height: 59px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Header__logo--title {
+        margin: 0px;
+        font-size: 42px;
+        font-style: italic;
+        font-weight: bold;
+        position: absolute;
+        top: 15px;
+        left: 125px;
+    }
+
+    .Header__navbar--container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 44px;
+        width: 612px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 644px;
+    }
+
+    .Header__navbar--link,
+    .Header__navbar--About,
+    .Header__navbar--Resources,
+    .Header__navbar--Community,
+    .Header__navbar--Opportunities,
+    .Header__navbar--ContactUs {
+        width: auto;
+        height: 20px;
+    }
+
+    .Header__logo--link,
+    .Header__navbar--link {
+        color: #FFFFFF;
+    }
+
+    .Header__user--image {
+        object-position: 20% 80%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 10px;
+        right: 164px;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+}
+
+
+@media screen and (min-device-width: 1280px){
+}

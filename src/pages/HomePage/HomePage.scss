@@ -1,0 +1,119 @@
+@media screen and (min-device-width: 0px){
+    .HomePage__sectionone--container {
+        background-image: linear-gradient( 0deg, #5AC5E8, #111B36);
+        height: 620px;
+        color: white;
+        position: relative;
+    }
+
+    .HomePage__sectionone--titlecontainer {
+        width: 428px;
+        height: 285px;
+        position: absolute;
+        top: 132px;
+        left: 261px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .HomePage__sectionone--title {
+        margin: 0px;
+        width: 428px;
+        height: 232px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .HomePage__sectionone--subtitle {
+        margin: 0px;
+        width: 428px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    .HomePage__sectionone--learnmore {
+        width: 102px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #111B36;
+        color: white;
+        position: absolute;
+        top: 449px;
+        left: 565px;
+    }
+
+    .HomePage__sectiontwo--container {
+        height: 282px;
+        background-color: white;
+        color: black;
+        position: relative;
+    }
+
+    .HomePage__sectiontwo--titlecontainer {
+        width: 716px;
+        height: 165px;
+        position: absolute;
+        top: 32px;
+        left: 76px;
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .HomePage__sectiontwo--title {
+        margin: 0px;
+        width: 716px;
+        height: 80px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .HomePage__sectiontwo--subtitle {
+        margin: 0px;
+        width: 694px;
+        height: 72px;
+        font-size: 20px;
+    }
+
+    .HomePage__sectiontwo--buildaroutine {
+        width: 181px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #111B36;
+        color: white;
+        position: absolute;
+        bottom: 37px;
+        left: 565px;
+    }
+
+    .HomePage__sectionthree--container,
+    .HomePage__sectionthree--image {
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        width: 489px;
+        height: 620px;
+    }
+
+    .HomePage__sectionthree--container {
+        position: absolute;
+        top: 181px;
+        left: 833px;
+    }
+
+    .HomePage__sectionthree--image {
+        object-fit: cover;
+        object-position: right;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+}
+
+
+@media screen and (min-device-width: 1280px){
+}
