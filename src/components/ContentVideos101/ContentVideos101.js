@@ -10,7 +10,9 @@ function ContentVideos101() {
             <div className="ContentVideos101">
                 <div className="ContentVideos101__titlecontainer">
                     <p className="ContentVideos101__title">Content Videos 101</p>
-                    <button className="ContentVideos101__titlebutton">Start the Course Now</button>
+                    <NavLink to={"/resources/equipment-and-software"}>
+                        <button className="ContentVideos101__titlebutton">Start the Course Now</button>
+                    </NavLink>
                 </div>
 
                 <img src={ContentVideos101Cover} className="ContentVideos101__coverimage" alt="Content Videos 101 Cover"/> 
