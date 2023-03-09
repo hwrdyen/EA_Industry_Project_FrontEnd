@@ -1,4 +1,5 @@
 import "./HomePage.scss";
+import { NavLink } from "react-router-dom";
 
 //import components
 import HeaderDark from "../../components/HeaderDark/HeaderDark.js";
@@ -27,7 +28,10 @@ function HomePage() {
                         <p className="HomePage__sectiontwo--subtitle">Discover how to establish a manageable and consistent routine for posting gaming content that values a healthy gaming-life balance with our Content Videos 101 crash course.</p>
                     </div>
 
-                    <button className="HomePage__sectiontwo--buildaroutine">Build A Routine Today!</button>
+                    <NavLink to={"/resources"}>
+                        <button className="HomePage__sectiontwo--buildaroutine">Build A Routine Today!</button>
+                    </NavLink>
+                    
                 </div>
 
                 <div className="HomePage__sectionthree--container">
