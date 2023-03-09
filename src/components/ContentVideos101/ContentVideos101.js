@@ -1,4 +1,5 @@
 import "./ContentVideos101.scss";
+import { NavLink } from "react-router-dom";
 
 // import images
 import ContentVideos101Cover from "../../assets/Images/contentvideos101cover.jpg";
@@ -27,7 +28,9 @@ function ContentVideos101() {
 
 
                     <div className="ContentVideos101__content--buttoncontainer">
-                        <button className="ContentVideos101__content--buttonstartcourse">Start the Course Now</button>
+                        <NavLink to={"/resources/equipment-and-software"}>
+                            <button className="ContentVideos101__content--buttonstartcourse">Start the Course Now</button>
+                        </NavLink>
                         <button className="ContentVideos101__content--buttontrailer">Watch Trailer</button>
                     </div>
                 </div>
